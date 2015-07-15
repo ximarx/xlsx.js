@@ -5,7 +5,7 @@
 //----------------------------------------------------------
 
 if ((typeof JSZip === 'undefined' || !JSZip) && typeof require === 'function') {
-	var JSZip = require('node-zip');
+	var JSZip = require('jszip');
 }
 
 function xlsx(file) { 
